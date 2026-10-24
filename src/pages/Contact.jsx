@@ -3,7 +3,7 @@ import { ArrowUpRight, CheckCircle2, Copy, Mail, MapPin, MessageCircle } from "l
 import Reveal from "../components/Reveal.jsx";
 import "./Contact.css";
 
-const CONTACT_EMAIL = "hello@example.com"; // Replace with your preferred public contact email.
+const CONTACT_EMAIL = "jhaashutosh470@example.com"; // Replace with your preferred public contact email.
 
 export default function Contact() {
   const [form, setForm] = useState({ name: "", email: "", topic: "Project collaboration", message: "" });
@@ -48,7 +48,7 @@ export default function Contact() {
           <p className="form-note">This starter form opens your email application. It does not send or store your message automatically.</p>
         </form></Reveal>
         <Reveal delay={100}><aside className="contact-sidebar">
-          <div className="contact-sidebar-card surface"><span className="contact-side-icon"><Mail size={20} /></span><span className="contact-side-label">EMAIL</span><h3>Prefer email?</h3><p>Use the address below once your public contact email is configured.</p><button className="email-copy" onClick={copyEmail}><span>{CONTACT_EMAIL}</span>{copied ? <CheckCircle2 size={16} /> : <Copy size={16} />}</button>{copied && <span className="copied-label">Copied to clipboard</span>}</div>
+          <div className="contact-sidebar-card surface"><span className="contact-side-icon"><Mail size={20} /></span><span className="contact-side-label">EMAIL</span><h3>Prefer email?</h3><p>Use the address below .</p><button className="email-copy" onClick={copyEmail}><span>{CONTACT_EMAIL}</span>{copied ? <CheckCircle2 size={16} /> : <Copy size={16} />}</button>{copied && <span className="copied-label">Copied to clipboard</span>}</div>
           <div className="contact-sidebar-card surface"><span className="contact-side-icon"><MapPin size={20} /></span><span className="contact-side-label">LOCATION</span><h3>South Asia</h3><p>Working across software, AI, robotics, and connected products.</p></div>
           <div className="contact-dark-card"><span className="contact-side-icon"><MessageCircle size={20} /></span><h3>Clear context helps.</h3><p>For project inquiries, share the problem, the outcome you want, and any useful timeline or constraints.</p></div>
         </aside></Reveal>

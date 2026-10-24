@@ -12,9 +12,9 @@ export default function Footer() {
             <p>Building ideas into working systems.<br />Software · AI · Robotics · IoT</p>
           </div>
           <div className="footer-links">
-            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><BriefcaseBusiness size={16} /> LinkedIn <ArrowUpRight size={14} /></a>
-            <a href="https://github.com/" target="_blank" rel="noreferrer"><Code2 size={16} /> GitHub <ArrowUpRight size={14} /></a>
-            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><Camera size={16} /> Instagram <ArrowUpRight size={14} /></a>
+            <a href="https://www.linkedin.com/in/ashutosh-kumar-jha-381604303" target="_blank" rel="noreferrer"><BriefcaseBusiness size={16} /> LinkedIn <ArrowUpRight size={14} /></a>
+            <a href="https://github.com/ashutosh2080" target="_blank" rel="noreferrer"><Code2 size={16} /> GitHub <ArrowUpRight size={14} /></a>
+            <a href="https://www.instagram.com/ashutoshjha_470" target="_blank" rel="noreferrer"><Camera size={16} /> Instagram <ArrowUpRight size={14} /></a>
             <Link to="/contact"><Mail size={16} /> Contact <ArrowUpRight size={14} /></Link>
           </div>
         </div>
