@@ -1,0 +1,11 @@
+.app-shell { min-height: 100vh; overflow: clip; }
+main { min-height: 65vh; }
+.page-wrap { width: min(1320px, calc(100% - 9vw)); margin-inline: auto; }
+.section-pad { padding-block: clamp(4.5rem, 8vw, 7.5rem); }
+.section-kicker { display: flex; align-items: center; gap: .6rem; color: var(--accent-strong); font: 500 .76rem var(--mono); letter-spacing: .12em; text-transform: uppercase; }
+.section-heading { max-width: 850px; margin: .65rem 0 1rem; font: 700 clamp(2.6rem, 5vw, 5rem)/.99 var(--serif); letter-spacing: -.045em; }
+.section-intro { max-width: 720px; color: var(--muted); font-size: clamp(1rem, 1.35vw, 1.22rem); line-height: 1.75; }
+.text-link { display: inline-flex; align-items: center; gap: .65rem; color: var(--ink); font-weight: 600; text-decoration: none; }
+.text-link svg { transition: transform .2s ease; }
+.text-link:hover svg { transform: translate(3px, -3px); }
+.surface { border: 1px solid var(--line); background: var(--card); border-radius: var(--radius-xl); box-shadow: 0 12px 36px rgba(54, 35, 25, .035); }

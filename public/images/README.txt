@@ -1,0 +1,1 @@
+Place your portrait image in this folder and name it ashutosh-portrait.jpg. The homepage will display it in the framed hero card. JPG or JPEG recommended. If you use another filename, update PORTRAIT_PATH in src/sections/Hero.jsx.

@@ -1,0 +1,13 @@
+ASHUTOSH — RESUME PLACEHOLDER
+
+Replace this file with your actual resume PDF before publishing.
+Then update the resume download links to /resume.pdf.
+
+Suggested sections:
+- Summary
+- Education
+- Experience and leadership
+- Selected software, AI, robotics, and IoT projects
+- Technical skills
+- Achievements and certifications
+- Contact links

@@ -1,0 +1,10 @@
+.contact-band-section { padding: 0 0 clamp(4.5rem, 8vw, 7rem); }
+.contact-band { position: relative; overflow: hidden; display: flex; align-items: center; justify-content: space-between; gap: 2rem; padding: clamp(30px, 5vw, 62px); border-radius: 30px; color: #f8eee5; background: var(--dark-panel); }
+.contact-band .section-kicker { color: #d99a5c; }
+.contact-band h2 { position: relative; z-index: 1; margin: .8rem 0; font: 700 clamp(2.5rem, 4.8vw, 4.5rem)/1 var(--serif); letter-spacing: -.04em; }
+.contact-band h2 em { color: #d99a5c; }
+.contact-band p { position: relative; z-index: 1; margin: 0; color: #c9b7a8; line-height: 1.7; }
+.contact-band-button { position: relative; z-index: 2; flex-shrink: 0; color: #2c1d17; background: #f6e9db; }
+.contact-band-orbit { position: absolute; right: 12%; top: -120px; width: 390px; height: 390px; border: 1px solid rgba(220,168,116,.23); border-radius: 50%; transform: scaleY(.55) rotate(35deg); }
+.contact-band-orbit::after { content: ""; position: absolute; inset: 30px; border: 1px solid rgba(220,168,116,.23); border-radius: 50%; }
+@media (max-width: 720px) { .contact-band { align-items: flex-start; flex-direction: column; } .contact-band-button { width: 100%; } }

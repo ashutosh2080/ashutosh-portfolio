@@ -1,0 +1,32 @@
+.site-header { position: sticky; top: 0; z-index: 50; padding: 14px 0; background: color-mix(in srgb, var(--bg) 86%, transparent); border-bottom: 1px solid color-mix(in srgb, var(--line) 70%, transparent); backdrop-filter: blur(18px); }
+.nav-inner { width: min(1450px, calc(100% - 7vw)); margin: auto; display: flex; align-items: center; justify-content: space-between; gap: 1.4rem; }
+.brand { display: inline-flex; align-items: center; gap: .7rem; text-decoration: none; min-width: 210px; }
+.brand-mark { display: grid; place-items: center; width: 44px; height: 44px; border-radius: 15px; color: #fffaf4; background: var(--accent); box-shadow: 0 5px 12px rgba(120,72,32,.18); }
+.brand-name { font: 700 1.25rem var(--serif); letter-spacing: -.035em; }
+.brand-dot { color: var(--accent); }
+.nav-links { display: flex; align-items: center; gap: .25rem; padding: 6px; border: 1px solid var(--line); border-radius: 999px; background: var(--card); box-shadow: 0 3px 12px rgba(40,25,18,.04); }
+.nav-link { padding: .78rem 1.2rem; border-radius: 999px; color: var(--muted); font-size: .94rem; text-decoration: none; transition: color .2s, background .2s; }
+.nav-link:hover { color: var(--ink); }
+.nav-link.active { background: var(--dark-panel); color: #fff7ef; }
+.nav-actions { display: flex; align-items: center; gap: .6rem; }
+.icon-button { display: grid; place-items: center; width: 40px; height: 40px; border: 1px solid var(--line); border-radius: 50%; color: var(--ink); background: var(--card); }
+.nav-contact { display: inline-flex; align-items: center; gap: .5rem; padding: .75rem 1rem; border: 1px solid var(--line); border-radius: 999px; text-decoration: none; font-size: .87rem; font-weight: 600; }
+.nav-contact:hover { background: var(--bg-soft); }
+.menu-toggle { display: none; }
+@media (max-width: 900px) {
+  .brand { min-width: auto; }
+  .nav-links { gap: 0; }
+  .nav-link { padding: .7rem .8rem; font-size: .87rem; }
+  .nav-contact { display: none; }
+}
+@media (max-width: 680px) {
+  .nav-inner { width: calc(100% - 32px); }
+  .site-header { padding: 10px 0; }
+  .brand-mark { width: 40px; height: 40px; }
+  .brand-name { font-size: 1.12rem; }
+  .menu-toggle { display: grid; }
+  .nav-links { position: absolute; top: calc(100% + 8px); left: 16px; right: 16px; display: none; align-items: stretch; flex-direction: column; padding: 8px; border-radius: 20px; box-shadow: 0 18px 40px rgba(0,0,0,.12); }
+  .nav-links.nav-open { display: flex; }
+  .nav-link { padding: .9rem 1rem; }
+  .nav-link.active { border-radius: 13px; }
+}
